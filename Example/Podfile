@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYModuleManager_Example' do
+  pod 'LYModuleManager', :path => '../'
+
+  target 'LYModuleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
