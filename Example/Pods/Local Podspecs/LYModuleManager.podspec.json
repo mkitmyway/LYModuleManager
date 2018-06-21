@@ -1,0 +1,22 @@
+{
+  "name": "LYModuleManager",
+  "version": "0.1.0",
+  "summary": "A short description of LYModuleManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mkitmyway/LYModuleManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mkitmyway": "wangwei214318@sogou-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/mkitmyway/LYModuleManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYModuleManager/Classes/**/*"
+}

@@ -7,12 +7,14 @@
 //
 
 #import "LYAppDelegate.h"
+#import <LYModuleManager/LYModuleManager.h>
 
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[LYModuleManager shareInstance] start];
     return YES;
 }
 
