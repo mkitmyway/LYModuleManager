@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		075A7725007AF27AEE951F59 /* Pods_LYModuleManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3695089A5D8DAAF54D67A62B /* Pods_LYModuleManager_Tests.framework */; };
+		4AC4AE0420DBB3EB009CD1DC /* test_lymm.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AC4AE0320DBB3EB009CD1DC /* test_lymm.plist */; };
+		4AC4AE0620DBB9BD009CD1DC /* test2_lymm.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AC4AE0520DBB9BD009CD1DC /* test2_lymm.plist */; };
 		4CAB8FBD9EB62EF71914D887 /* Pods_LYModuleManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4980665D1F42502DB4587C3 /* Pods_LYModuleManager_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		2594F88B38B3A3B0F895A7F7 /* Pods-LYModuleManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYModuleManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYModuleManager_Tests/Pods-LYModuleManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3695089A5D8DAAF54D67A62B /* Pods_LYModuleManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYModuleManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC4AE0320DBB3EB009CD1DC /* test_lymm.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = test_lymm.plist; sourceTree = "<group>"; };
+		4AC4AE0520DBB9BD009CD1DC /* test2_lymm.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = test2_lymm.plist; sourceTree = "<group>"; };
 		52D861DCA03B097EA2469A35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYModuleManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYModuleManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AC4AE0220DBB380009CD1DC /* ModuleConfs */ = {
+			isa = PBXGroup;
+			children = (
+				4AC4AE0320DBB3EB009CD1DC /* test_lymm.plist */,
+				4AC4AE0520DBB9BD009CD1DC /* test2_lymm.plist */,
+			);
+			path = ModuleConfs;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +145,7 @@
 		6003F593195388D20070C39A /* Example for LYModuleManager */ = {
 			isa = PBXGroup;
 			children = (
+				4AC4AE0220DBB380009CD1DC /* ModuleConfs */,
 				6003F59C195388D20070C39A /* LYAppDelegate.h */,
 				6003F59D195388D20070C39A /* LYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -281,8 +295,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				4AC4AE0620DBB9BD009CD1DC /* test2_lymm.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				4AC4AE0420DBB3EB009CD1DC /* test_lymm.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

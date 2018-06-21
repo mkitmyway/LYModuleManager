@@ -12,5 +12,6 @@
 + (instancetype)shareInstance;
 
 - (void)start;
+- (id)getModule:(Protocol *)moduleProtocol;
 
 @end

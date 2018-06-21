@@ -43,6 +43,7 @@
 		31E2DE7838856B302597362AEDF03F62 /* Pods-LYModuleManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYModuleManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		32F7FCCAEC8B9B9ED8E27179EED422DC /* Pods-LYModuleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYModuleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		37E250D6144D8E6837810BF1055AE90E /* LYModuleManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYModuleManager-prefix.pch"; sourceTree = "<group>"; };
+		4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYModuleProtocol.h; sourceTree = "<group>"; };
 		4AD3309C20DBA9A9009E1310 /* LYModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYModuleManager.h; sourceTree = "<group>"; };
 		4AD3309D20DBA9A9009E1310 /* LYModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYModuleManager.m; sourceTree = "<group>"; };
 		50140EE74181ECCD276BF36E0C6833DC /* Pods-LYModuleManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYModuleManager_Tests.modulemap"; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 				A88FF07546C1122192726F333EEEB735 /* Support Files */,
 				4AD3309C20DBA9A9009E1310 /* LYModuleManager.h */,
 				4AD3309D20DBA9A9009E1310 /* LYModuleManager.m */,
+				4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */,
 			);
 			name = LYModuleManager;
 			path = ../..;
