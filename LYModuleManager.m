@@ -6,6 +6,7 @@
 //
 
 #import "LYModuleManager.h"
+#import "LYModuleProtocol.h"
 @interface LYModuleManager()
 
 @property(nonatomic, strong) NSMutableDictionary *moduleConfs;
@@ -58,12 +59,28 @@
 
 
 - (id)getModule:(Protocol *)moduleProtocol{
-    //1.通过协议获取名字
-    //2.通过协议名字找到对应实现类
-    //3.创建实现类，如果存在直接返回，要考虑单例情况
-    //4.返回实现类
+    NSString *protocName = NSStringFromProtocol(moduleProtocol);
+   
+    NSString *impClsName = nil;
+    for (NSString *pName in self.moduleConfs.allKeys) {
+        if([pName isEqualToString:protocName]){
+            impClsName = self.moduleConfs[pName];
+            break;
+        }
+    }
     
-    return nil;
+    id imp = nil;
+    if (impClsName) {
+        Class impCls = NSClassFromString(impClsName);
+        if([impCls conformsToProtocol:@protocol(LYModuleProtocol)]){
+            if([impCls respondsToSelector:@selector(getSingleton)]){
+                imp = [impCls getSingleton];
+            }else{
+                imp = [[impCls alloc] init];
+            }
+        }
+    }
+    return imp;
 }
 
 @end

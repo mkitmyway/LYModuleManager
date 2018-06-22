@@ -11,6 +11,7 @@
 #endif
 
 #import "LYModuleManager.h"
+#import "LYModuleProtocol.h"
 
 FOUNDATION_EXPORT double LYModuleManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYModuleManagerVersionString[];

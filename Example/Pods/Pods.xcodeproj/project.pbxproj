@@ -12,6 +12,7 @@
 		28508B124EC886B6A02D2CC84728115C /* Pods-LYModuleManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41765E61C05D67FA17F1C99FED7F5D4 /* Pods-LYModuleManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AD3309E20DBA9A9009E1310 /* LYModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD3309C20DBA9A9009E1310 /* LYModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AD3309F20DBA9A9009E1310 /* LYModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3309D20DBA9A9009E1310 /* LYModuleManager.m */; };
+		4AFDB3B220DC9F5400094B7F /* LYModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		684FE61155150ED38541F8744E60F1BF /* Pods-LYModuleManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01518D6F9BABA77B0E00730CAD2BC92D /* Pods-LYModuleManager_Example-dummy.m */; };
 		6D172E3A6D4CF3F05F8C86F5A80B314B /* Pods-LYModuleManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E2DE7838856B302597362AEDF03F62 /* Pods-LYModuleManager_Tests-dummy.m */; };
 		A8B14507C3B73DAAEB0406F9A4668504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -236,6 +237,7 @@
 			files = (
 				C9C0C0782D5673A0C9727E6F9680F4E0 /* LYModuleManager-umbrella.h in Headers */,
 				4AD3309E20DBA9A9009E1310 /* LYModuleManager.h in Headers */,
+				4AFDB3B220DC9F5400094B7F /* LYModuleProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

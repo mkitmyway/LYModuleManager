@@ -7,6 +7,8 @@
 #import <Foundation/Foundation.h>
 
 @protocol LYModuleProtocol <NSObject>
+@optional
 
++(id)getSingleton;
 
 @end

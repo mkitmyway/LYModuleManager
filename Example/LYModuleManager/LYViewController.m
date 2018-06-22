@@ -7,6 +7,8 @@
 //
 
 #import "LYViewController.h"
+#import <LYModuleManager/LYModuleManager.h>
+#import "LYTestProtocol.h"
 
 @interface LYViewController ()
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    id<LYTestProtocol> testModule = [[LYModuleManager shareInstance] getModule:@protocol(LYTestProtocol)];
+    [testModule test:@"hello world"];
 }
 
 
