@@ -117,10 +117,10 @@
 		40E3FD8287648A645447E5052619B3CF /* LYModuleManager */ = {
 			isa = PBXGroup;
 			children = (
-				A88FF07546C1122192726F333EEEB735 /* Support Files */,
+				4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */,
 				4AD3309C20DBA9A9009E1310 /* LYModuleManager.h */,
 				4AD3309D20DBA9A9009E1310 /* LYModuleManager.m */,
-				4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */,
+				A88FF07546C1122192726F333EEEB735 /* Support Files */,
 			);
 			name = LYModuleManager;
 			path = ../..;
