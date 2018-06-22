@@ -10,9 +10,9 @@
 		07046606A19E40BF7CF55755F82E659E /* LYModuleManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F302F50FA5CF06283CB43679AC5E8 /* LYModuleManager-dummy.m */; };
 		2603C311445BF993F187A22F35D9994F /* Pods-LYModuleManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE708F66944E2451999B8B5FC1D7160 /* Pods-LYModuleManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28508B124EC886B6A02D2CC84728115C /* Pods-LYModuleManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41765E61C05D67FA17F1C99FED7F5D4 /* Pods-LYModuleManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AD3309E20DBA9A9009E1310 /* LYModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD3309C20DBA9A9009E1310 /* LYModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AD3309F20DBA9A9009E1310 /* LYModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3309D20DBA9A9009E1310 /* LYModuleManager.m */; };
-		4AFDB3B220DC9F5400094B7F /* LYModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFDB3C220DCD82A00094B7F /* LYModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDB3BE20DCD82A00094B7F /* LYModuleManager.h */; };
+		4AFDB3C320DCD82A00094B7F /* LYModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDB3BF20DCD82A00094B7F /* LYModuleProtocol.h */; };
+		4AFDB3C420DCD82A00094B7F /* LYModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDB3C120DCD82A00094B7F /* LYModuleManager.m */; };
 		684FE61155150ED38541F8744E60F1BF /* Pods-LYModuleManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01518D6F9BABA77B0E00730CAD2BC92D /* Pods-LYModuleManager_Example-dummy.m */; };
 		6D172E3A6D4CF3F05F8C86F5A80B314B /* Pods-LYModuleManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E2DE7838856B302597362AEDF03F62 /* Pods-LYModuleManager_Tests-dummy.m */; };
 		A8B14507C3B73DAAEB0406F9A4668504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -44,9 +44,10 @@
 		31E2DE7838856B302597362AEDF03F62 /* Pods-LYModuleManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYModuleManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		32F7FCCAEC8B9B9ED8E27179EED422DC /* Pods-LYModuleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYModuleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		37E250D6144D8E6837810BF1055AE90E /* LYModuleManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYModuleManager-prefix.pch"; sourceTree = "<group>"; };
-		4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYModuleProtocol.h; sourceTree = "<group>"; };
-		4AD3309C20DBA9A9009E1310 /* LYModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYModuleManager.h; sourceTree = "<group>"; };
-		4AD3309D20DBA9A9009E1310 /* LYModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYModuleManager.m; sourceTree = "<group>"; };
+		4AFDB3BE20DCD82A00094B7F /* LYModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYModuleManager.h; sourceTree = "<group>"; };
+		4AFDB3BF20DCD82A00094B7F /* LYModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYModuleProtocol.h; sourceTree = "<group>"; };
+		4AFDB3C020DCD82A00094B7F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4AFDB3C120DCD82A00094B7F /* LYModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYModuleManager.m; sourceTree = "<group>"; };
 		50140EE74181ECCD276BF36E0C6833DC /* Pods-LYModuleManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYModuleManager_Tests.modulemap"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		678B252B52B7861B566B96D4EE894DC2 /* Pods-LYModuleManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYModuleManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -117,21 +118,23 @@
 		40E3FD8287648A645447E5052619B3CF /* LYModuleManager */ = {
 			isa = PBXGroup;
 			children = (
-				4AFDB3BC20DCD74300094B7F /* Classes */,
+				4AFDB3BD20DCD82A00094B7F /* Classes */,
 				A88FF07546C1122192726F333EEEB735 /* Support Files */,
 			);
 			name = LYModuleManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		4AFDB3BC20DCD74300094B7F /* Classes */ = {
+		4AFDB3BD20DCD82A00094B7F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4AC4AE0720DBBBDA009CD1DC /* LYModuleProtocol.h */,
-				4AD3309C20DBA9A9009E1310 /* LYModuleManager.h */,
-				4AD3309D20DBA9A9009E1310 /* LYModuleManager.m */,
+				4AFDB3BE20DCD82A00094B7F /* LYModuleManager.h */,
+				4AFDB3BF20DCD82A00094B7F /* LYModuleProtocol.h */,
+				4AFDB3C020DCD82A00094B7F /* .gitkeep */,
+				4AFDB3C120DCD82A00094B7F /* LYModuleManager.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = LYModuleManager/Classes;
 			sourceTree = "<group>";
 		};
 		5C4CC501F19D451FE5FADDBB186C6042 /* Development Pods */ = {
@@ -243,9 +246,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFDB3C320DCD82A00094B7F /* LYModuleProtocol.h in Headers */,
 				C9C0C0782D5673A0C9727E6F9680F4E0 /* LYModuleManager-umbrella.h in Headers */,
-				4AD3309E20DBA9A9009E1310 /* LYModuleManager.h in Headers */,
-				4AFDB3B220DC9F5400094B7F /* LYModuleProtocol.h in Headers */,
+				4AFDB3C220DCD82A00094B7F /* LYModuleManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD3309F20DBA9A9009E1310 /* LYModuleManager.m in Sources */,
+				4AFDB3C420DCD82A00094B7F /* LYModuleManager.m in Sources */,
 				07046606A19E40BF7CF55755F82E659E /* LYModuleManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
